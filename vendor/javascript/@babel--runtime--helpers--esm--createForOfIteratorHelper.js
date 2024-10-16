@@ -1,0 +1,4 @@
+// @babel/runtime/helpers/esm/createForOfIteratorHelper@7.25.6 downloaded from https://ga.jspm.io/npm:@babel/runtime@7.25.6/helpers/esm/createForOfIteratorHelper.js
+
+import r from"./unsupportedIterableToArray.js";import"./arrayLikeToArray.js";function _createForOfIteratorHelper(t,o){var a="undefined"!=typeof Symbol&&t[Symbol.iterator]||t["@@iterator"];if(!a){if(Array.isArray(t)||(a=r(t))||o&&t&&"number"==typeof t.length){a&&(t=a);var i=0,u=function F(){};return{s:u,n:function n(){return i>=t.length?{done:!0}:{done:!1,value:t[i++]}},e:function e(r){throw r},f:u}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var l,y=!0,c=!1;return{s:function s(){a=a.call(t)},n:function n(){var r=a.next();return y=r.done,r},e:function e(r){c=!0,l=r},f:function f(){try{y||null==a.return||a.return()}finally{if(c)throw l}}}}export{_createForOfIteratorHelper as default};
+

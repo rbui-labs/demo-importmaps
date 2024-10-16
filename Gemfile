@@ -64,3 +64,7 @@ end
 
 gem "tailwindcss-rails", "~> 3.0"
 gem "rbui", github: "rbui-labs/rbui", branch: "main"
+
+gem "phlex-rails", "~> 1.1"
+
+gem "tailwind_merge", "~> 0.13.1"
