@@ -97,6 +97,16 @@ GIT
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
 
+GIT
+  remote: https://github.com/rbui-labs/rbui.git
+  revision: 3da64fbb63a3de0174fbc37a809d930a76dcfce7
+  branch: main
+  specs:
+    rbui (1.0.0.pre.alpha.3)
+      phlex (~> 1.10)
+      rouge (~> 4.2.0)
+      tailwind_merge (>= 0.12)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -172,6 +182,7 @@ GEM
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
+    lru_redux (1.1.0)
     mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
@@ -214,6 +225,7 @@ GEM
     parser (3.3.5.0)
       ast (~> 2.4.1)
       racc
+    phlex (1.11.0)
     propshaft (1.1.0)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -249,6 +261,7 @@ GEM
     reline (0.5.10)
       io-console (~> 0.5)
     rexml (3.3.8)
+    rouge (4.2.1)
     rubocop (1.67.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -321,6 +334,8 @@ GEM
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
     stringio (3.1.1)
+    tailwind_merge (0.13.1)
+      lru_redux (~> 1.1)
     tailwindcss-rails (3.0.0)
       railties (>= 7.0.0)
       tailwindcss-ruby
@@ -386,6 +401,7 @@ DEPENDENCIES
   propshaft
   puma (>= 5.0)
   rails!
+  rbui!
   rubocop-rails-omakase
   selenium-webdriver
   solid_cable
