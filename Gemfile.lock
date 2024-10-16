@@ -225,11 +225,10 @@ GEM
     parser (3.3.5.0)
       ast (~> 2.4.1)
       racc
-    phlex (1.11.0)
-    phlex-rails (1.1.1)
-      phlex (~> 1.9)
+    phlex (1.10.3)
+    phlex-rails (1.2.1)
+      phlex (~> 1.10.0)
       railties (>= 6.1, < 8)
-      zeitwerk (~> 2.6)
     propshaft (1.1.0)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -402,7 +401,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kamal
-  phlex-rails (~> 1.1)
+  phlex-rails (~> 1.2)
   propshaft
   puma (>= 5.0)
   rails!
