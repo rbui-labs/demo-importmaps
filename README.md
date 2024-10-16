@@ -1,4 +1,4 @@
-# Demo Rails Project with esbuild, Tailwind, and RBUI
+# Demo Rails Project with importmaps, Tailwind, and RBUI
 
 This README documents the steps taken to set up this Rails project with esbuild for JavaScript handling, Tailwind CSS for styling, and RBUI for UI components.
 
