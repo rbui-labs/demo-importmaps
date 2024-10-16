@@ -1,24 +1,71 @@
-# README
+# Demo Rails Project with esbuild, Tailwind, and RBUI
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README documents the steps taken to set up this Rails project with esbuild for JavaScript handling, Tailwind CSS for styling, and RBUI for UI components.
 
-Things you may want to cover:
+## Setup Steps
 
-* Ruby version
+1. Create a new Rails project with esbuild:
 
-* System dependencies
+   ```
+   rails new demo-importmaps --main
+   ```
 
-* Configuration
+2. Add and install Tailwind CSS:
 
-* Database creation
+   ```
+   bundle add tailwindcss-rails
+   rails tailwindcss:install
+   ```
 
-* Database initialization
+3. Add RBUI to the Gemfile:
 
-* How to run the test suite
+   ```ruby
+   gem "rbui", github: "rbui-labs/rbui", branch: "main"
+   ```
 
-* Services (job queues, cache servers, search engines, etc.)
+4. Install RBUI:
 
-* Deployment instructions
+   ```
+   rails generate rbui:install
+   ```
 
-* ...
+5. Add a sample page with RBUI components
+   (Details of this step are not provided in the initial setup description)
+
+## Project Structure
+
+This project uses:
+
+- Rails for the web framework
+- esbuild for JavaScript bundling
+- Tailwind CSS for styling
+- RBUI for UI components
+
+## Getting Started
+
+To run this project locally:
+
+1. Ensure you have Ruby and Rails installed
+2. Clone this repository
+3. Run `bundle install` to install dependencies
+4. Run `rails server` to start the development server
+5. Visit `http://localhost:3000` in your browser
+
+## Additional Information
+
+For more details on the used technologies, refer to their documentation:
+
+- [Rails](https://guides.rubyonrails.org/)
+- [esbuild](https://esbuild.github.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [RBUI](https://github.com/rbui-labs/rbui)
+
+## Contributing
+
+If you'd like to contribute to this project, please...
+
+[Add your contribution guidelines here]
+
+## License
+
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
