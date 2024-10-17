@@ -99,7 +99,7 @@ GIT
 
 GIT
   remote: https://github.com/rbui-labs/rbui.git
-  revision: 3da64fbb63a3de0174fbc37a809d930a76dcfce7
+  revision: a8769d4e584075fac0ad0e6c7798f1f8036e9f07
   branch: main
   specs:
     rbui (1.0.0.pre.alpha.3)
